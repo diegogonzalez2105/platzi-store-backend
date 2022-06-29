@@ -15,7 +15,7 @@ script:
   - yarn test
 
 notifications:
-  slack: workspace: prueba-9u17637:wJTBHheRQAgfqVqXIqG8Behd
+  slack: workspace:token
   email:
     reciepients:
       - diegogonzalez2105@gmail.com
