@@ -1,0 +1,30 @@
+language: node_js
+cache:
+   directories:
+    - node_modules
+    - ~/npm 
+    node_js:
+    - '12'
+    git:
+    depth: 3
+    script:
+    - yarn test
+
+    notifications:
+  slack: prueba-9u17637:wJTBHheRQAgfqVqXIqG8Behd
+     email: 
+      recipients:
+      - diegogonzalez2105@gmail.com
+      on_success: always
+      on_failure: always
+
+      depoy:
+       provide: heroku
+       skip_cleanup: true
+      keep_history: true
+      api_key: 75973df0-b444-4806-9f16-c5d94e84e5fe
+      app: ci-store-backend
+      on:
+       repo: diegogonzalez2105/platzi-store-backend
+
+    
