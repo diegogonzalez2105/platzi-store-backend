@@ -12,7 +12,6 @@ git:
 
 script:
   - yarn test
-
 notifications:
 
   slack: prueba-9u17637:wJTBHheRQAgfqVqXIqG8Behd
