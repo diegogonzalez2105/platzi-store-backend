@@ -1,5 +1,4 @@
  language: node_js
-
 cache:
   directories:
     - node_modules
@@ -15,7 +14,8 @@ script:
   - yarn test
 
 notifications:
-  slack: workspace:token
+
+  slack: prueba-9u17637:wJTBHheRQAgfqVqXIqG8Behd
   email:
     reciepients:
       - diegogonzalez2105@gmail.com
